@@ -48,7 +48,7 @@ A repo that holds the code for my research papers in DS340W
   - Are predictions explainable?
   - Does Performance differ across populations and demographiics
 - Data: Combined datasets, along with external validation dataset
-- Methods: I will evaluate a hybrid model and ensemble model and the compare them to a baseline model.
+- Methods: I will evaluate a hybrid model and ensemble model and apply SHAP for interpretability
 - - Hybrid: Genetic Algorithm-Particle Swarm Optimization-Support Vector Machine
   - Ensemble Method: Support Vector Machine-Random Forest-Multilayer Perceptron
 Evaluation
