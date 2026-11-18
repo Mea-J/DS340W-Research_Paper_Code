@@ -25,7 +25,7 @@ A repo that holds the code for my research papers in DS340W
   - SVM-KNN hybrid model
 - Feature Engineering:
 - - Wavelet Transforms
-  - PCA transforms
+  - PCA transformsP
  
 
 # Parent Paper 3: High Performance Heart Disease Prediction Through Soft Voting Ensemble: An Interpretable Machine Learning Approach
@@ -44,12 +44,19 @@ A repo that holds the code for my research papers in DS340W
 # My Implementation
 - Goal: Evaluate the generalizability and Interpretability of Hybrid Machine Learning Models for Disease Prediction
 - Research Questions:
-- - Does Performance change when the model is tested on different datasets?
-  - Are predictions explainable?
-  - Does Performance differ across populations and demographiics
+- - Do GA-PSO optimized models maintain their performance when evaluated on an independent dataset?
+  - Do the most important predictive features remain consistent across different datasets?
+  - Does combining GA and PSO actually improve generalizability compared with using either technique independently?
 - Data: Combined datasets, along with external validation dataset
-- Methods: I will evaluate a hybrid model and ensemble model and apply SHAP for interpretability
-- - Hybrid: Genetic Algorithm-Particle Swarm Optimization-Support Vector Machine
+- Methods: I will apply a genetic algorithm for feature selection and particle swarm optimization for hyperparamter tuning to an ensemble machine learning model. Then for interpretability validation I will use SHAP. To evaluate the models performance, I will use a logistic regression model both with and without the optimization steps.
   - Ensemble Method: Support Vector Machine-Random Forest-Multilayer Perceptron
-Evaluation
+- Evaluation Metrics:
+- - F1
+  - Accuracy
+  - Precision 
+  - Recall
+  - ROC-AUC
+  - Consistency of feature importance
+  
+
 
