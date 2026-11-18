@@ -41,6 +41,13 @@ A repo that holds the code for my research papers in DS340W
 -Evaluation: The soft voting ensemble method was compared to the best performing individual classifiers by accuracy, precision, recall, F1-score, and ROC.
 
 
+# Paper 4: XAI-Augmented Voting Ensemble Models for Heart Disease Prediction: A SHAP and LIME-Based Approach
+- Introduces XAI:
+- - SHAP (SHapley Additive exPlanations):
+  - LIME (Local Interpretable Model-agnostic Explanations):
+Uses the same dataset as Parent Paper
+
+
 # My Implementation
 - Goal: Evaluate the generalizability and Interpretability of Hybrid Machine Learning Models for Disease Prediction
 - Research Questions:
